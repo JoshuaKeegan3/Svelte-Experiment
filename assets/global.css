@@ -1,0 +1,65 @@
+html {
+    height: 100%;
+}
+
+div.Container{
+  background-color: inherit;
+}
+
+div.content-container{
+  background-color: inherit;
+}
+
+div.flexor{
+  background-color: inherit;
+}
+
+div.flexor-content{
+  background-color: inherit;
+}
+
+div.flexy{
+  background-color: inherit;
+}
+
+div.MCServerBannerDivContainer {
+  background-color: none;
+}
+
+body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.flexy {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: inherit;
+}
+
+.flexor {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.flexor-content {
+    flex-basis: 0;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.Container {
+    justify-content: center;
+    align-content: space-around;
+    height: 50%;
+    padding: 10%;
+}
+
+.content-container {
+    width: 50%;
+    margin: 5%;
+    padding: 5%;
+    border-width: 1%;
+    border-style: solid;
+    border-radius: 10px;
+}
